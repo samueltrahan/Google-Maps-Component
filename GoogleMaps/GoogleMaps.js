@@ -5,10 +5,11 @@ export default function GoogleMaps() {
   function Map() {
     return (
       <GoogleMap 
-      defaultZoom={10},
+      defaultZoom={10}
       defaultCenter={{
         lat: 30.2672,
         lng: -97.7431
+        //Austin, Texas set as default center.  Uses cities lat & lng to find other cities
       }}
       />
     )
